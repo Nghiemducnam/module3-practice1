@@ -10,6 +10,7 @@ import { MovieListComponent } from "./movie-list/movie-list.component";
 import { MovieService } from "./services/movie.service";
 import { MovieAddComponent } from "./movie-add/movie-add.component";
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
+import { TemplateReferVarComponent } from './template-refer-var/template-refer-var.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ReactiveFormsModule, FormsModule } from "@angular/forms";
     FirstButtonComponent,
     SecondButtonComponent,
     MovieListComponent,
-    MovieAddComponent
+    MovieAddComponent,
+    TemplateReferVarComponent
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, FormsModule],
   providers: [MovieService],

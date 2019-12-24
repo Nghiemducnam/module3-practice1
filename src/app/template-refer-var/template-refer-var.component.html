@@ -1,0 +1,17 @@
+<div>
+    <h3>Sử dụng #Var</h3>
+    <label for="">
+    Input
+    <input type="text" #txtInput>
+  </label>
+    <button (click)="showResult (txtInput.value);" class="btn btn-danger">Click</button>
+</div>
+
+<div>
+    <h3>Sử dụng Ref</h3>
+    <label for="">
+  Input
+  <input type="text" ref-txtInput>
+</label>
+    <button (click)="showResult (txtInput.value);" class="btn btn-danger">Click</button>
+</div>
